@@ -1,0 +1,14 @@
+#install prisma for ORM
+npm install prisma -D
+
+#sqlite for db
+npx prisma init --datasource-provider SQLite
+
+npx prisma migrate dev
+
+npm i @prisma/client
+
+npx prisma studio
+
+npm i class-validator
+npm i class-transformer
